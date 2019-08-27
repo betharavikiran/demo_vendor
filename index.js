@@ -1,6 +1,8 @@
-import { loginCall } from './src/methods/loginCall';
+import loginCall from './src/methods/loginCall';
 import { getConfig } from './src/utils/getConfig';
 import { KarmaVendor } from './src/KarmaVendor';
+
+console.log(loginCall);
 
 function getKarmaVendorInstance(env, loginId, password){
    console.log(env);
