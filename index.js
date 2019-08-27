@@ -1,4 +1,4 @@
-import loginCall from './src/methods/loginCall';
+//import loginCall from './src/methods/loginCall';
 import { getConfig } from './src/utils/getConfig';
 //import { KarmaVendor } from './src/KarmaVendor';
 
