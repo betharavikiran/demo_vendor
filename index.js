@@ -8,9 +8,9 @@ function getKarmaVendorInstance(env, loginId, password){
    console.log(password);
    const config = getConfig(env);
    console.log(config);
-   const loginResult = loginCall(config, loginId, password);
-   console.log(loginResult);
-   const { status, jwt, userId } = loginResult;
+   //const loginResult = loginCall(config, loginId, password);
+   //console.log(loginResult);
+  // const { status, jwt, userId } = loginResult;
    return true;
 }
 
