@@ -18,4 +18,4 @@ async function loginCall(config, loginID, password)  {
     return {status: "SUCCESS", jwt, userId}
 }
 
-export default loginCall;
+module.exports = loginCall;

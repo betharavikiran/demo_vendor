@@ -21,5 +21,4 @@ function getConfig(env) {
     return config;
 }
 
-
-export { getConfig }
+module.exports = getConfig;
