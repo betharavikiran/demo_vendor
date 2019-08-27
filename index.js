@@ -15,3 +15,5 @@ function getKarmaVendorInstance(env, loginId, password){
        return null;
    }
 }
+
+module.exports = getKarmaVendorInstance;
