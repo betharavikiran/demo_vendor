@@ -1,7 +1,7 @@
 import getClient from './../utils/getClient';
 import {login} from './../utils/operations';
 
-const loginCall = async (config, loginID, password) => {
+async function loginCall(config, loginID, password)  {
     const client = getClient("", config.HTTP_ENDPOINT, config.WS_ENDPOINT);
 
     const {data} = await client.mutate({
@@ -18,4 +18,4 @@ const loginCall = async (config, loginID, password) => {
     return {status: "SUCCESS", jwt, userId}
 }
 
-export default loginCall;
+export { loginCall }
