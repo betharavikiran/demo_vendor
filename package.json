@@ -35,7 +35,7 @@
     "node-fetch": "^2.6.0",
     "randomstring": "^1.1.5",
     "subscriptions-transport-ws": "^0.9.16",
-    "ws": "^7.1.0"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
